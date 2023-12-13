@@ -1,0 +1,41 @@
+ 
+  
+  .container{ 
+    max-width: 1350px; 
+    margin: 0 auto; 
+    padding: 0 15px;  
+    border: 1px solid transparent;    
+    overflow: hidden;
+}  
+ 
+body {
+    // min-height:100vh;  
+   
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+} 
+ 
+.white-popup, 
+.mfp-content{ 
+  width: fit-content; 
+  margin: 0 auto;
+} 
+ 
+.mfp-close-btn-in .mfp-close {
+  cursor: default;
+  color:transparent;
+}  
+ 
+.flag-icon-ua {
+  background-image: url(../images/main/ua.svg); 
+  position: absolute;
+  left: 9px;
+  top: 12px;
+ } 
+  
+ #popup .phone-input {
+  padding-left: 43px; /* Змініть значення за потреби */ 
+ }
